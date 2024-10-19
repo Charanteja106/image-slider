@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="image-container">
+        <img class="images " src="https://picsum.photos/id/235/1000/500 " style="left: 0;" >
+        <img class="images" src="https://picsum.photos/id/236/1000/500 " style="left: 100%;">
+        <img class="images" src= "https://picsum.photos/id/238/1000/500 " style="left: 200%;">
+        <img class="images" src="https://picsum.photos/id/239/1000/500 " style="left: 300%;">
+        <img class="images" src= "https://picsum.photos/id/240/1000/500 " style="left: 400%;">
+        <img class="images" src= "https://picsum.photos/id/241/1000/500 " style="left: 500%;">
+        <img class="images" src= "https://picsum.photos/id/242/1000/500 " style="left: 600%;">
+    </div>
+
+    <nav>
+        <button onclick="goPrev()"> prev </button>
+        <button onclick="goNext()"> next </button>
+    </nav>
+
+
+
+    <div class="dots-container">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
