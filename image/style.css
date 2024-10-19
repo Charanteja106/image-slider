@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: cadetblue;
+    color: white;
 }
 .image-container{
     width: 60%;
@@ -34,4 +35,20 @@ button:active{
     background-color: rgb(61, 63, 63);
     color: aliceblue;
    
+}
+.dots-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin: 0 5px;
+}
+.active{
+    background-color: #333;
 }

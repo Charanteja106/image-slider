@@ -25,7 +25,20 @@ const slideImage = () =>{
         (slide) => {
             slide.style.transform = `translateX(-${counter * 100}%)`
         }
+        
     )
 }
 
+let dotsContainer = document.querySelector(".dots-container")
+let dots = document.querySelectorAll(".dot")
+
+
+
+dots.forEach((dot , index ) => {
+
+    dot.addEventListener("click" , () =>{
+        counter=index;
+        slideImage();
+    })
+}) 
 
